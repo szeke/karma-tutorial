@@ -1,0 +1,99 @@
+@prefix syll: <http://lod.isi.edu/ontology/syllabus/> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+# Classes
+
+syll:Event 		rdf:type			owl:Class ;
+				rdfs:subClassOf    	event:Event ;
+				rdfs:comment		"Superclass for all events that happen in a class." .
+
+syll:TeachingEvent	rdf:type		owl:Class ;
+				rdfs:subClassOf    	syll:Event ;
+				rdfs:comment		"Superclass for all events that happen in a class, that are related to teaching." .
+
+syll:EvaluationEvent	rdf:type		owl:Class ;
+				rdfs:subClassOf    	syll:Event ;
+				rdfs:comment		"Superclass for all events that students do, such as homeworks and projects." .
+
+syll:Lecture	rdf:type			owl:Class ;
+				rdfs:subClassOf    	vivo:Meeting, syll:TeachingEvent ;
+				rdfs:comment		"One of the lectures in a course." .
+
+syll:Homework	rdf:type			owl:Class ;
+				rdfs:subClassOf    	syll:EvaluationEvent ;
+				rdfs:comment		"A homework." .
+
+syll:ProjectEvent	rdf:type		owl:Class ;
+				rdfs:subClassOf    	syll:EvaluationEvent ;
+				rdfs:comment		"An event related to a course project, such as software submission, class presentation, etc." .
+
+syll:Course		rdf:type			owl:Class ;
+				rdfs:subClassOf		vivo:Course, syll:TeachingEvent ;
+				rdfs:comment		"Defines a course. We make no distinction between a course and the different instances when the course is taught." .
+
+syll:Person		rdf:type			owl:Class ;
+				rdfs:subClassOf		foaf:Person ;
+				rdfs:comment		"Our own Person class so we can subclass it from several ontologies." .
+
+# Object Properties
+
+syll:hasLecture		rdf:type			owl:ObjectProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:range			syll:Lecture ;
+					rdfs:comment		"The lectures that comprise a course. A specific instantiation of the course may not schedule all the lectures." .
+
+syll:hasInstructor	rdf:type			owl:ObjectProperty ;
+					rdfs:domain			syll:TeachingEvent ;
+					rdfs:range			syll:Person ;
+					rdfs:comment		"The person or persons how participate as instructors of a course." .
+
+syll:hasTeachingAssistant	rdf:type	owl:ObjectProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:range			syll:Person ;
+					rdfs:comment		"A person serving as a teaching assistant for a course." .
+
+syll:hasGrader		rdf:type			owl:ObjectProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:range			syll:Person ;
+					rdfs:comment		"A person serving as a grader for a course." .
+
+syll:hasHomework	rdf:type			owl:ObjectProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:range			syll:Homework ;
+					rdfs:comment		"The homeworks assigned in a course." .
+
+syll:hasProjectEvent	rdf:type		owl:ObjectProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:range			syll:ProjectEvent ;
+					rdfs:comment		"The events related to a course project." .
+
+# Data Properties
+
+syll:hasEventDate	rdf:type			owl:DatatypeProperty ;
+					rdfs:subPropertyOf	dcterms:date ;
+					rdfs:domain			syll:Event ;
+					rdfs:comment		"The date when the event occurs. If an event spans more than one day, it is the date when the event ends." .
+
+syll:twitterId		rdf:type			owl:DatatypeProperty ;
+					rdfs:subPropertyOf	dcterms:identifier ;
+					rdfs:domain			foaf:Person ;
+					rdfs:comment		"The twitter handle of a person." .
+
+syll:hasClassroom	rdf:type			owl:DatatypeProperty ;
+					rdfs:domain			syll:Course ;
+					rdfs:comment		"The classroom where the class is held." .
+

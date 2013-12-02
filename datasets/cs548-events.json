@@ -1,0 +1,264 @@
+{
+	"comment" : "The main events of CS548." ,
+	"course" : "CS548" ,
+	"prerequisites" : [ "CS585", "CS561" ] ,
+	"instructors" : [ "ambite" , "szekely" ] ,
+	"teaching-assistants" : [ "slepicka" ] ,
+	"graders" : [] ,
+	"classroom" : "ZHS 163" ,
+	"lectures" : 
+	[
+
+		{
+			"id" : "l:intro" ,
+			"title" : "Introduction and Course Overview" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:rdf" ,
+			"title" : "RDF, graph data model" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:rdfs" ,
+			"title" : "RDFS, inference" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:sparql" ,
+			"title" : "SPARQL query language" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:linked-data" ,
+			"title" : "Linked Data, common vocabularies/ontologies" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:record-linkage-string-matching" ,
+			"title" : "Record Linkage – String Matching" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:record-linkage-record-matching" ,
+			"title" : "Record Linkage – Record Matching" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:entity-extraction" ,
+			"title" : "Unstructured: Extracting entities and relations from text" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:open-information-extraction" ,
+			"title" : "Unstructured: Open Information Extraction" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:database-theory-basics" ,
+			"title" : "Database theory basics: queries, query containment, Datalog" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:glav" ,
+			"title" : "Answering queries using views (Global-as-View, Local-as-View)" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:data-cleaning" ,
+			"title" : "Data cleaning" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:schema-mapping" ,
+			"title" : "Schema Mapping" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:rdf-mapping" ,
+			"title" : "RDF mapping tools" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:automatic-modeling" ,
+			"title" : "Automatic Source Modeling" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:karma" ,
+			"title" : "Karma, Semi-automatic source modeling" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:owl2-basics" ,
+			"title" : "OWL2: Description Logics, Inference" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:owl2-profiles" ,
+			"title" : "OWL2 Profiles: QL, EL, RL" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:ontology-based-integration" ,
+			"title" : "Ontology-based data integration" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:linked-services" ,
+			"title" : "Linked Services" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:wrapper-generation" ,
+			"title" : "Semi-structured Data: Wrapper Generation" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:wrapper-learning" ,
+			"title" : "Semi-structured Data: Wrapper Learning" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:mashup-principles" ,
+			"title" : "Mashups: principles" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:mashup-tools" ,
+			"title" : "Mashups: Yahoo Pipes & YQL, REST" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:big-data" ,
+			"title" : "Big Data" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:intellectual-property" ,
+			"title" : "Intellectual Property" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:review" ,
+			"title" : "Review" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:project-presentations-1" ,
+			"title" : "Project Presentations" ,
+			"description" : "TBD" 
+		} ,
+
+		{
+			"id" : "l:project-presentations-2" ,
+			"title" : "Project Presentations" ,
+			"description" : "TBD" 
+		} 
+	] ,
+	"homeworks" :
+	[
+		{
+			"id" : "hw:rdf" ,
+			"title" : "RDF Graphs" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:sparql" ,
+			"title" : "SPARQL, the RDF Query Language" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:karma" ,
+			"title" : "Using Karma to Convert Datasets Into RDF" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:triple-stores" ,
+			"title" : "Working with Triple Stores" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:mashups" ,
+			"title" : "Mashup Tools: Yahoo Pipes and YQL and Google Refine" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:record-linkage" ,
+			"title" : "Using Record Linkage Tools to Link Datasets" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "hw:information-extraction" ,
+			"title" : "Using Information Extraction Tools to Extract Entities from Text" ,
+			"description" : "" 
+		} 
+	] ,
+	"project" : 
+	[
+		{
+			"id" : "project:proposal" ,
+			"title" : "Project Proposal" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "project:presentation" ,
+			"title" : "Project Presentations" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "project:paper" ,
+			"title" : "Project Paper" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "project:video" ,
+			"title" : "Project Video" ,
+			"description" : "" 
+		} ,
+
+		{
+			"id" : "project:demonstration" ,
+			"title" : "Project Online Demonstration" ,
+			"description" : "" 
+		} ,
+
+
+	]
+}
