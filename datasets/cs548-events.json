@@ -11,56 +11,56 @@
 
 		{
 			"id" : "l:intro" ,
-			"title" : "Introduction and Course Overview" ,
-			"description" : "TBD" 
+			"title" : "Introduction and course overview" ,
+			"description" : "Overview of issues that make information integration challenging and the techniques that we will cover in the course to address these challenges.  Disucssion of the grading policy, including the quizzes, homeworks and the final project." 
 		} ,
 
 		{
 			"id" : "l:rdf" ,
 			"title" : "RDF, graph data model" ,
-			"description" : "TBD" 
+			"description" : "Introduction to the Resource Description Framework (RDF), the langauage of the Semantic Web and the Linked Data Cloud. We will review basic concepts of XML and contrast XML with RDF. Will introduce the concept of URIs, the global graph of data that RDF supports, and the syntax to write RDF documents." 
 		} ,
 
 		{
 			"id" : "l:rdfs" ,
-			"title" : "RDFS, inference" ,
-			"description" : "TBD" 
+			"title" : "RDF Schema and basic inference" ,
+			"description" : "RDF Schema defines the semantics of RDF graphs. We will introduce the elements of the RDF Schema language and show how these elements enable an RDF database (triple store) to make inferences to derive new information." 
 		} ,
 
 		{
 			"id" : "l:sparql" ,
 			"title" : "SPARQL query language" ,
-			"description" : "TBD" 
+			"description" : "SPARQL is the query language of RDF databases. We will introduce the types of queries that can be expressed in SPARQL and the main elements of the language. We will show how one can query the Linked Data cloud using SPARQL." 
 		} ,
 
 		{
 			"id" : "l:linked-data" ,
 			"title" : "Linked Data, common vocabularies/ontologies" ,
-			"description" : "TBD" 
+			"description" : "Tim Berners Lee introduced the concept of Linked Data more than 10 years ago. Since then, the Linked Data cloud has grown to more than 30 billion facts covering pretty much any topic you can think of. We will review the principles of Linked Data and provide an overview of the main datasets and vocabularies available in the Linked Data cloud." 
 		} ,
 
 		{
 			"id" : "l:record-linkage-string-matching" ,
-			"title" : "Record Linkage – String Matching" ,
-			"description" : "TBD" 
+			"title" : "Record linkage – string matching" ,
+			"description" : "Record Linkage is the problem of identifying when two different records refer to the same real world entity (e.g., whether two records about restaurants refer to the same restaurant). Record Linkage is one of the most important problems in information integration. In this class we begin our study of Record Linkage by covering several techniques for fuzzy matching text strings." 
 		} ,
 
 		{
 			"id" : "l:record-linkage-record-matching" ,
-			"title" : "Record Linkage – Record Matching" ,
-			"description" : "TBD" 
+			"title" : "Record linkage – record matching" ,
+			"description" : "We continue our study of Record Linkage by reviewing techniques for matching records consisting of multiple attributes. We will review the main algorithms for record linkage and cover optimization technques to avoid the N-squared comparison problem." 
 		} ,
 
 		{
 			"id" : "l:entity-extraction" ,
-			"title" : "Unstructured: Extracting entities and relations from text" ,
-			"description" : "TBD" 
+			"title" : "Extracting entities and relations from text" ,
+			"description" : "Many structured sources contain unstructured fields (e.g., the biography of a person). We will provide a brief overview of the main techniques to extract entities (people, places and organizations) from text and review several off-the-shelf tools for entity extraction." 
 		} ,
 
 		{
 			"id" : "l:open-information-extraction" ,
-			"title" : "Unstructured: Open Information Extraction" ,
-			"description" : "TBD" 
+			"title" : "Open information extraction" ,
+			"description" : "New information extraction techniques are able to extract a wide variety of entities, relations and events from text. These techniques allow you to build large knowledge bases of a wide variety of topics (e.g., the places where famous people where born). Our guest lecturer is a leading expert in open information extrction and will present an overview of these techniques. " 
 		} ,
 
 		{
@@ -78,30 +78,30 @@
 		{
 			"id" : "l:data-cleaning" ,
 			"title" : "Data cleaning" ,
-			"description" : "TBD" 
+			"description" : "Data cleaning is a major headache in information integration because most datasets contain errors that need to be corrected before the information is usable. We will cover the main types of errors and common techniques for detecting and correcting data errors. We will provide an overview of Google Refine, a popular tool for data cleaning." 
 		} ,
 
 		{
 			"id" : "l:schema-mapping" ,
 			"title" : "Schema Mapping" ,
-			"description" : "TBD" 
+			"description" : "Different datasets often use different schemas even when they contain information about the same topic. In order to integrate these datasets it is useful to identify a mapping between the attributes in these datasets so that one can combine them into one integrated dataset. In this class we cover techniques for automatically identifying mappings between schemas." 
 		} ,
 
 		{
 			"id" : "l:rdf-mapping" ,
 			"title" : "RDF mapping tools" ,
-			"description" : "TBD" 
+			"description" : "A popular and useful technique for integrating datasets (databases, delimited text files, XML or JSON) is to map them to RDF. Once the datasets are mapped to RDF it becomes possible to query them in an integrated way using SPARQL. In this class we cover techniques for mapping different types of datasets to RDF." 
 		} ,
 
 		{
 			"id" : "l:automatic-modeling" ,
-			"title" : "Automatic Source Modeling" ,
-			"description" : "TBD" 
+			"title" : "Automatic source modeling" ,
+			"description" : "Mapping datasets to RDF can be difficult and time-consuming. In this class we cover different techniques for automatically mapping a dataset to a domain ontology (RDF Schema)." 
 		} ,
 
 		{
 			"id" : "l:karma" ,
-			"title" : "Karma, Semi-automatic source modeling" ,
+			"title" : "Karma, semi-automatic source modeling" ,
 			"description" : "TBD" 
 		} ,
 
