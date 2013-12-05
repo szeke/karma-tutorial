@@ -30,9 +30,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node18anhmj2cx1 a km-dev:R2RMLMapping ;
+_:node18b0jn3llx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "cs548-events.json" ;
-	km-dev:modelPublicationTime "1385917271117"^^xsd:long ;
+	km-dev:modelPublicationTime "1386221375157"^^xsd:long ;
 	km-dev:hasWorksheetHistory """[
   {
     \"commandName\": \"SubmitPythonTransformationCommand\",
@@ -1141,53 +1141,6 @@ _:node18anhmj2cx1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"newColumnName\",
         \"type\": \"other\",
-        \"value\": \"lecture_uri\"
-      },
-      {
-        \"name\": \"transformationCode\",
-        \"type\": \"other\",
-        \"value\": \"return \\\"http://lod.isi.edu/cs548/lecture/\\\"+getValue(\\\"id\\\").replace(\\\":\\\",\\\"-\\\")\"
-      },
-      {
-        \"name\": \"worksheetId\",
-        \"type\": \"worksheetId\",
-        \"value\": \"W\"
-      },
-      {
-        \"name\": \"hNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [
-          {\"columnName\": \"lectures\"},
-          {\"columnName\": \"id\"}
-        ]
-      },
-      {
-        \"name\": \"previousCommandId\",
-        \"type\": \"other\",
-        \"value\": \"C228\"
-      },
-      {
-        \"name\": \"errorDefaultValue\",
-        \"type\": \"other\",
-        \"value\": \"\"
-      },
-      {
-        \"name\": \"targetHNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [
-          {\"columnName\": \"lectures\"},
-          {\"columnName\": \"lecture_uri\"}
-        ]
-      }
-    ],
-    \"tags\": [\"Transformation\"]
-  },
-  {
-    \"commandName\": \"SubmitEditPythonTransformationCommand\",
-    \"inputParameters\": [
-      {
-        \"name\": \"newColumnName\",
-        \"type\": \"other\",
         \"value\": \"project_uri\"
       },
       {
@@ -1587,301 +1540,348 @@ _:node18anhmj2cx1 a km-dev:R2RMLMapping ;
       }
     ],
     \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"http://lod.isi.edu/cs548/lecture/\\\"+getValue(\\\"id\\\").replace(\\\":\\\", \\\"-\\\")\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [
+          {\"columnName\": \"lectures\"},
+          {\"columnName\": \"id\"}
+        ]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C250\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [
+          {\"columnName\": \"lectures\"},
+          {\"columnName\": \"lecture_uri\"}
+        ]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
   }
 ]
 """ .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 a rr:TriplesMap .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 .
 
-_:node18anhmj2cx2 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx2 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:logicalTable _:node18anhmj2cx2 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:logicalTable _:node18b0jn3llx2 .
 
-_:node18anhmj2cx3 rr:template "{\"course_uri\"}" .
+_:node18b0jn3llx3 rr:template "{\"course_uri\"}" .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:subjectMap _:node18anhmj2cx3 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:subjectMap _:node18b0jn3llx3 .
 
-_:node18anhmj2cx3 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Course1" ;
+_:node18b0jn3llx3 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Course1" ;
 	rr:class syll:Course ;
 	a km-dev:steinerTreeRootNode .
 
-_:node18anhmj2cx5 rr:predicate syll:hasClassroom .
+_:node18b0jn3llx5 rr:predicate syll:hasClassroom .
 
-_:node18anhmj2cx6 rr:column "classroom" ;
+_:node18b0jn3llx6 rr:column "classroom" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx5 rr:objectMap _:node18anhmj2cx6 .
+_:node18b0jn3llx5 rr:objectMap _:node18b0jn3llx6 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx5 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx5 .
 
-_:node18anhmj2cx7 rr:predicate syll:hasHomework .
+_:node18b0jn3llx7 rr:predicate syll:hasHomework .
 
-km-dev:RefObjectMap_6a039bd7-4fb4-4b21-b49d-f3accab84c01 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 .
+km-dev:RefObjectMap_2d947f4f-7dcf-47ee-9701-955999ec0541 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a .
 
-_:node18anhmj2cx7 rr:objectMap km-dev:RefObjectMap_6a039bd7-4fb4-4b21-b49d-f3accab84c01 .
+_:node18b0jn3llx7 rr:objectMap km-dev:RefObjectMap_2d947f4f-7dcf-47ee-9701-955999ec0541 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx7 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx7 .
 
-_:node18anhmj2cx8 rr:predicate syll:hasInstructor .
+_:node18b0jn3llx8 rr:predicate syll:hasInstructor .
 
-km-dev:RefObjectMap_7f59c8ea-a565-4a62-942d-1efd3b55d281 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_59a1fc95-35cc-4af1-a1a8-c6c465a3d837 .
+km-dev:RefObjectMap_c884583e-025d-4907-84de-05954faa2e1b a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7775592a-ceea-4698-926c-899207e29a66 .
 
-_:node18anhmj2cx8 rr:objectMap km-dev:RefObjectMap_7f59c8ea-a565-4a62-942d-1efd3b55d281 .
+_:node18b0jn3llx8 rr:objectMap km-dev:RefObjectMap_c884583e-025d-4907-84de-05954faa2e1b .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx8 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx8 .
 
-_:node18anhmj2cx9 rr:predicate syll:hasLecture .
+_:node18b0jn3llx9 rr:predicate syll:hasLecture .
 
-km-dev:RefObjectMap_f4a13fad-3387-4c79-b496-d3232d575d45 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb .
+km-dev:RefObjectMap_feab3939-6130-4542-9804-dce7215871fa a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 .
 
-_:node18anhmj2cx9 rr:objectMap km-dev:RefObjectMap_f4a13fad-3387-4c79-b496-d3232d575d45 .
+_:node18b0jn3llx9 rr:objectMap km-dev:RefObjectMap_feab3939-6130-4542-9804-dce7215871fa .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx9 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx9 .
 
-_:node18anhmj2cx10 rr:predicate syll:hasProjectEvent .
+_:node18b0jn3llx10 rr:predicate syll:hasProjectEvent .
 
-km-dev:RefObjectMap_d943cba5-3fcb-4c3e-b645-630c6f06158f a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 .
+km-dev:RefObjectMap_371b79e6-95bd-4c68-ab8e-6a07f206b2d2 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 .
 
-_:node18anhmj2cx10 rr:objectMap km-dev:RefObjectMap_d943cba5-3fcb-4c3e-b645-630c6f06158f .
+_:node18b0jn3llx10 rr:objectMap km-dev:RefObjectMap_371b79e6-95bd-4c68-ab8e-6a07f206b2d2 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx10 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx10 .
 
-_:node18anhmj2cx11 rr:predicate syll:hasTeachingAssistant .
+_:node18b0jn3llx11 rr:predicate syll:hasTeachingAssistant .
 
-km-dev:RefObjectMap_a5eef4ef-2bf1-4f17-a1da-71b77b220656 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_8ef0b329-e5d3-4734-bf22-e33b1b47284a .
+km-dev:RefObjectMap_eaf1f6fd-a285-4d30-817a-19ff91cf9ed4 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_d91924e7-8d52-475c-8b88-06302b25ef34 .
 
-_:node18anhmj2cx11 rr:objectMap km-dev:RefObjectMap_a5eef4ef-2bf1-4f17-a1da-71b77b220656 .
+_:node18b0jn3llx11 rr:objectMap km-dev:RefObjectMap_eaf1f6fd-a285-4d30-817a-19ff91cf9ed4 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx11 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx11 .
 
-_:node18anhmj2cx12 rr:predicate dcterms:title .
+_:node18b0jn3llx12 rr:predicate dcterms:title .
 
-_:node18anhmj2cx13 rr:column "course_title" ;
+_:node18b0jn3llx13 rr:column "course_title" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx12 rr:objectMap _:node18anhmj2cx13 .
+_:node18b0jn3llx12 rr:objectMap _:node18b0jn3llx13 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx12 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx12 .
 
-_:node18anhmj2cx14 rr:predicate vivo:hasPrerequisite .
+_:node18b0jn3llx14 rr:predicate vivo:hasPrerequisite .
 
-km-dev:RefObjectMap_ddd65014-8318-4e20-835e-1333aa4334dc a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 .
+km-dev:RefObjectMap_eacff2fc-dfaa-4308-b31c-c4429a17df21 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 .
 
-_:node18anhmj2cx14 rr:objectMap km-dev:RefObjectMap_ddd65014-8318-4e20-835e-1333aa4334dc .
+_:node18b0jn3llx14 rr:objectMap km-dev:RefObjectMap_eacff2fc-dfaa-4308-b31c-c4429a17df21 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx14 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx14 .
 
-_:node18anhmj2cx15 rr:predicate rdfs:label .
+_:node18b0jn3llx15 rr:predicate rdfs:label .
 
-_:node18anhmj2cx16 rr:column "course" ;
+_:node18b0jn3llx16 rr:column "course" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx15 rr:objectMap _:node18anhmj2cx16 .
+_:node18b0jn3llx15 rr:objectMap _:node18b0jn3llx16 .
 
-km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 rr:predicateObjectMap _:node18anhmj2cx15 .
+km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 rr:predicateObjectMap _:node18b0jn3llx15 .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 a rr:TriplesMap .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a .
 
-_:node18anhmj2cx17 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx17 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 rr:logicalTable _:node18anhmj2cx17 .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a rr:logicalTable _:node18b0jn3llx17 .
 
-_:node18anhmj2cx18 rr:template "{\"[\"homeworks\",\"homework_uri\"]\"}" .
+_:node18b0jn3llx18 rr:template "{\"[\"homeworks\",\"homework_uri\"]\"}" .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 rr:subjectMap _:node18anhmj2cx18 .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a rr:subjectMap _:node18b0jn3llx18 .
 
-_:node18anhmj2cx18 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Homework1" ;
+_:node18b0jn3llx18 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Homework1" ;
 	rr:class syll:Homework .
 
-_:node18anhmj2cx20 rr:predicate dcterms:description .
+_:node18b0jn3llx20 rr:predicate dcterms:description .
 
-_:node18anhmj2cx21 rr:column "[\"homeworks\",\"description\"]" ;
+_:node18b0jn3llx21 rr:column "[\"homeworks\",\"description\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx20 rr:objectMap _:node18anhmj2cx21 .
+_:node18b0jn3llx20 rr:objectMap _:node18b0jn3llx21 .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 rr:predicateObjectMap _:node18anhmj2cx20 .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a rr:predicateObjectMap _:node18b0jn3llx20 .
 
-_:node18anhmj2cx22 rr:predicate dcterms:identifier .
+_:node18b0jn3llx22 rr:predicate dcterms:identifier .
 
-_:node18anhmj2cx23 rr:column "[\"homeworks\",\"id\"]" ;
+_:node18b0jn3llx23 rr:column "[\"homeworks\",\"id\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx22 rr:objectMap _:node18anhmj2cx23 .
+_:node18b0jn3llx22 rr:objectMap _:node18b0jn3llx23 .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 rr:predicateObjectMap _:node18anhmj2cx22 .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a rr:predicateObjectMap _:node18b0jn3llx22 .
 
-_:node18anhmj2cx24 rr:predicate dcterms:title .
+_:node18b0jn3llx24 rr:predicate dcterms:title .
 
-_:node18anhmj2cx25 rr:column "[\"homeworks\",\"title\"]" ;
+_:node18b0jn3llx25 rr:column "[\"homeworks\",\"title\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx24 rr:objectMap _:node18anhmj2cx25 .
+_:node18b0jn3llx24 rr:objectMap _:node18b0jn3llx25 .
 
-km-dev:TriplesMap_fc8990c7-414e-44fe-88df-20d981f082b8 rr:predicateObjectMap _:node18anhmj2cx24 .
+km-dev:TriplesMap_6b0c7968-fabb-45de-be84-f47284fc3c7a rr:predicateObjectMap _:node18b0jn3llx24 .
 
-km-dev:TriplesMap_59a1fc95-35cc-4af1-a1a8-c6c465a3d837 a rr:TriplesMap .
+km-dev:TriplesMap_7775592a-ceea-4698-926c-899207e29a66 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_59a1fc95-35cc-4af1-a1a8-c6c465a3d837 .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_7775592a-ceea-4698-926c-899207e29a66 .
 
-_:node18anhmj2cx26 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx26 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_59a1fc95-35cc-4af1-a1a8-c6c465a3d837 rr:logicalTable _:node18anhmj2cx26 .
+km-dev:TriplesMap_7775592a-ceea-4698-926c-899207e29a66 rr:logicalTable _:node18b0jn3llx26 .
 
-_:node18anhmj2cx27 rr:template "{\"[\"instructors\",\"instructor_uri\"]\"}" .
+_:node18b0jn3llx27 rr:template "{\"[\"instructors\",\"instructor_uri\"]\"}" .
 
-km-dev:TriplesMap_59a1fc95-35cc-4af1-a1a8-c6c465a3d837 rr:subjectMap _:node18anhmj2cx27 .
+km-dev:TriplesMap_7775592a-ceea-4698-926c-899207e29a66 rr:subjectMap _:node18b0jn3llx27 .
 
-_:node18anhmj2cx27 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person1" ;
+_:node18b0jn3llx27 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person1" ;
 	rr:class syll:Person .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb a rr:TriplesMap .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 .
 
-_:node18anhmj2cx29 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx29 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb rr:logicalTable _:node18anhmj2cx29 .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 rr:logicalTable _:node18b0jn3llx29 .
 
-_:node18anhmj2cx30 rr:template "{\"[\"lectures\",\"lecture_uri\"]\"}" .
+_:node18b0jn3llx30 rr:template "{\"[\"lectures\",\"lecture_uri\"]\"}" .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb rr:subjectMap _:node18anhmj2cx30 .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 rr:subjectMap _:node18b0jn3llx30 .
 
-_:node18anhmj2cx30 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Lecture1" ;
+_:node18b0jn3llx30 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Lecture1" ;
 	rr:class syll:Lecture .
 
-_:node18anhmj2cx32 rr:predicate dcterms:description .
+_:node18b0jn3llx32 rr:predicate dcterms:description .
 
-_:node18anhmj2cx33 rr:column "[\"lectures\",\"description\"]" ;
+_:node18b0jn3llx33 rr:column "[\"lectures\",\"description\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx32 rr:objectMap _:node18anhmj2cx33 .
+_:node18b0jn3llx32 rr:objectMap _:node18b0jn3llx33 .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb rr:predicateObjectMap _:node18anhmj2cx32 .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 rr:predicateObjectMap _:node18b0jn3llx32 .
 
-_:node18anhmj2cx34 rr:predicate dcterms:identifier .
+_:node18b0jn3llx34 rr:predicate dcterms:identifier .
 
-_:node18anhmj2cx35 rr:column "[\"lectures\",\"id\"]" ;
+_:node18b0jn3llx35 rr:column "[\"lectures\",\"id\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx34 rr:objectMap _:node18anhmj2cx35 .
+_:node18b0jn3llx34 rr:objectMap _:node18b0jn3llx35 .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb rr:predicateObjectMap _:node18anhmj2cx34 .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 rr:predicateObjectMap _:node18b0jn3llx34 .
 
-_:node18anhmj2cx36 rr:predicate dcterms:title .
+_:node18b0jn3llx36 rr:predicate dcterms:title .
 
-_:node18anhmj2cx37 rr:column "[\"lectures\",\"title\"]" ;
+_:node18b0jn3llx37 rr:column "[\"lectures\",\"title\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx36 rr:objectMap _:node18anhmj2cx37 .
+_:node18b0jn3llx36 rr:objectMap _:node18b0jn3llx37 .
 
-km-dev:TriplesMap_f13a5709-9cd6-4ef8-a52b-61f247d78abb rr:predicateObjectMap _:node18anhmj2cx36 .
+km-dev:TriplesMap_1c503a8c-c637-41a6-9c6b-c98fb93f5552 rr:predicateObjectMap _:node18b0jn3llx36 .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 a rr:TriplesMap .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 .
 
-_:node18anhmj2cx38 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx38 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 rr:logicalTable _:node18anhmj2cx38 .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 rr:logicalTable _:node18b0jn3llx38 .
 
-_:node18anhmj2cx39 rr:template "{\"[\"project\",\"project_uri\"]\"}" .
+_:node18b0jn3llx39 rr:template "{\"[\"project\",\"project_uri\"]\"}" .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 rr:subjectMap _:node18anhmj2cx39 .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 rr:subjectMap _:node18b0jn3llx39 .
 
-_:node18anhmj2cx39 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/ProjectEvent1" ;
+_:node18b0jn3llx39 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/ProjectEvent1" ;
 	rr:class syll:ProjectEvent .
 
-_:node18anhmj2cx41 rr:predicate dcterms:description .
+_:node18b0jn3llx41 rr:predicate dcterms:description .
 
-_:node18anhmj2cx42 rr:column "[\"project\",\"description\"]" ;
+_:node18b0jn3llx42 rr:column "[\"project\",\"description\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx41 rr:objectMap _:node18anhmj2cx42 .
+_:node18b0jn3llx41 rr:objectMap _:node18b0jn3llx42 .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 rr:predicateObjectMap _:node18anhmj2cx41 .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 rr:predicateObjectMap _:node18b0jn3llx41 .
 
-_:node18anhmj2cx43 rr:predicate dcterms:identifier .
+_:node18b0jn3llx43 rr:predicate dcterms:identifier .
 
-_:node18anhmj2cx44 rr:column "[\"project\",\"id\"]" ;
+_:node18b0jn3llx44 rr:column "[\"project\",\"id\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx43 rr:objectMap _:node18anhmj2cx44 .
+_:node18b0jn3llx43 rr:objectMap _:node18b0jn3llx44 .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 rr:predicateObjectMap _:node18anhmj2cx43 .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 rr:predicateObjectMap _:node18b0jn3llx43 .
 
-_:node18anhmj2cx45 rr:predicate dcterms:title .
+_:node18b0jn3llx45 rr:predicate dcterms:title .
 
-_:node18anhmj2cx46 rr:column "[\"project\",\"title\"]" ;
+_:node18b0jn3llx46 rr:column "[\"project\",\"title\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx45 rr:objectMap _:node18anhmj2cx46 .
+_:node18b0jn3llx45 rr:objectMap _:node18b0jn3llx46 .
 
-km-dev:TriplesMap_7ab42a6f-7bab-4e9b-9890-af158977dc00 rr:predicateObjectMap _:node18anhmj2cx45 .
+km-dev:TriplesMap_946a21f5-d8ab-417a-9b2a-40712a5cafe8 rr:predicateObjectMap _:node18b0jn3llx45 .
 
-km-dev:TriplesMap_8ef0b329-e5d3-4734-bf22-e33b1b47284a a rr:TriplesMap .
+km-dev:TriplesMap_d91924e7-8d52-475c-8b88-06302b25ef34 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_8ef0b329-e5d3-4734-bf22-e33b1b47284a .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_d91924e7-8d52-475c-8b88-06302b25ef34 .
 
-_:node18anhmj2cx47 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx47 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_8ef0b329-e5d3-4734-bf22-e33b1b47284a rr:logicalTable _:node18anhmj2cx47 .
+km-dev:TriplesMap_d91924e7-8d52-475c-8b88-06302b25ef34 rr:logicalTable _:node18b0jn3llx47 .
 
-_:node18anhmj2cx48 rr:template "{\"[\"teaching-assistants\",\"ta_uri\"]\"}" .
+_:node18b0jn3llx48 rr:template "{\"[\"teaching-assistants\",\"ta_uri\"]\"}" .
 
-km-dev:TriplesMap_8ef0b329-e5d3-4734-bf22-e33b1b47284a rr:subjectMap _:node18anhmj2cx48 .
+km-dev:TriplesMap_d91924e7-8d52-475c-8b88-06302b25ef34 rr:subjectMap _:node18b0jn3llx48 .
 
-_:node18anhmj2cx48 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person2" ;
+_:node18b0jn3llx48 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person2" ;
 	rr:class syll:Person .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 a rr:TriplesMap .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 a rr:TriplesMap .
 
-_:node18anhmj2cx1 km-dev:hasTriplesMap km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 .
+_:node18b0jn3llx1 km-dev:hasTriplesMap km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 .
 
-_:node18anhmj2cx50 rr:tableName "cs548-events.json" .
+_:node18b0jn3llx50 rr:tableName "cs548-events.json" .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 rr:logicalTable _:node18anhmj2cx50 .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 rr:logicalTable _:node18b0jn3llx50 .
 
-_:node18anhmj2cx51 rr:template "{\"[\"prerequisites\",\"course_uri\"]\"}" .
+_:node18b0jn3llx51 rr:template "{\"[\"prerequisites\",\"course_uri\"]\"}" .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 rr:subjectMap _:node18anhmj2cx51 .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 rr:subjectMap _:node18b0jn3llx51 .
 
-_:node18anhmj2cx51 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Course2" ;
+_:node18b0jn3llx51 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Course2" ;
 	rr:class syll:Course .
 
-_:node18anhmj2cx52 rr:predicate vivo:prerequisiteFor .
+_:node18b0jn3llx52 rr:predicate vivo:prerequisiteFor .
 
-km-dev:RefObjectMap_6a89f27b-660e-459b-b9bc-6da7421d696b a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 .
+km-dev:RefObjectMap_0b8155d0-ceb3-4a5a-a8f4-ddc74b094316 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 .
 
-_:node18anhmj2cx52 rr:objectMap km-dev:RefObjectMap_6a89f27b-660e-459b-b9bc-6da7421d696b .
+_:node18b0jn3llx52 rr:objectMap km-dev:RefObjectMap_0b8155d0-ceb3-4a5a-a8f4-ddc74b094316 .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 rr:predicateObjectMap _:node18anhmj2cx52 .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 rr:predicateObjectMap _:node18b0jn3llx52 .
 
-_:node18anhmj2cx53 rr:predicate vivo:prerequisiteFor .
+_:node18b0jn3llx53 rr:predicate vivo:prerequisiteFor .
 
-km-dev:RefObjectMap_422fe010-2e1a-474e-9ca0-d9ed602cbb17 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_883b29ad-882c-43d8-abb0-b8f9fe59ab91 .
+km-dev:RefObjectMap_14154b95-d486-4dee-99c3-9fd69f524ede a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_deffa5b3-a91a-4f6f-af54-e0891c740bc4 .
 
-_:node18anhmj2cx53 rr:objectMap km-dev:RefObjectMap_422fe010-2e1a-474e-9ca0-d9ed602cbb17 .
+_:node18b0jn3llx53 rr:objectMap km-dev:RefObjectMap_14154b95-d486-4dee-99c3-9fd69f524ede .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 rr:predicateObjectMap _:node18anhmj2cx53 .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 rr:predicateObjectMap _:node18b0jn3llx53 .
 
-_:node18anhmj2cx55 rr:predicate rdfs:label .
+_:node18b0jn3llx55 rr:predicate rdfs:label .
 
-_:node18anhmj2cx56 rr:column "[\"prerequisites\",\"values\"]" ;
+_:node18b0jn3llx56 rr:column "[\"prerequisites\",\"values\"]" ;
 	rr:datatype "" .
 
-_:node18anhmj2cx55 rr:objectMap _:node18anhmj2cx56 .
+_:node18b0jn3llx55 rr:objectMap _:node18b0jn3llx56 .
 
-km-dev:TriplesMap_0b395048-bcab-46d9-8535-ee2ac51aebc8 rr:predicateObjectMap _:node18anhmj2cx55 .
+km-dev:TriplesMap_795f536c-58ca-4817-9797-5789a404cad9 rr:predicateObjectMap _:node18b0jn3llx55 .
