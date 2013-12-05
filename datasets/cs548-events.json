@@ -102,19 +102,19 @@
 		{
 			"id" : "l:karma" ,
 			"title" : "Karma, semi-automatic source modeling" ,
-			"description" : "TBD" 
+			"description" : "Karma is our own tool for semi-automatically mapping a variety of sources to a domain model defined using an ontology or an RDF Schema. In this class we will cover the algorithms that Karma uses to learn from previous mappings and the algorithms to automatically suggest models for new sources." 
 		} ,
 
 		{
 			"id" : "l:owl2-basics" ,
 			"title" : "OWL2: Description Logics, Inference" ,
-			"description" : "TBD" 
+			"description" : "OWL, the Web Ontology Language is the standard language for defining ontologies in the Semantic Web. OWL ontologies define the semantics of classes and properties and allow inferences to be made to derive new facts. In this class we cover the main OWL constructs and how they allow a system to infer new facts." 
 		} ,
 
 		{
 			"id" : "l:owl2-profiles" ,
 			"title" : "OWL2 Profiles: QL, EL, RL" ,
-			"description" : "TBD" 
+			"description" : "Full OWL reasoning is computationally expensive (exponential) and thus impractical for most applications. The OWL profiles define subsets of OWL where the reasoning algorithms perform efficiently. In this class we introduce the most common OWL profiles, review the reasoning capabilities that they support and illustrate them in practical settings." 
 		} ,
 
 		{
@@ -126,37 +126,37 @@
 		{
 			"id" : "l:linked-services" ,
 			"title" : "Linked Services" ,
-			"description" : "TBD" 
+			"description" : "A significant amount of data on the Web is available via Web APIs. These APIs typically return their data in XML or JSON. In this class we review techniques for modeling Web APIs to make them easy to discover and to wrap them so that they can consume and produce RDF. This makes it possible to integrate them with other Linked Data sources." 
 		} ,
 
 		{
 			"id" : "l:wrapper-generation" ,
 			"title" : "Semi-structured Data: Wrapper Generation" ,
-			"description" : "TBD" 
+			"description" : "Most of the information on the Web is available on Web pages, and often is not available in a structured format or a Web API. Web wrappers are programs that extract data from Web pages and return it in a structured format, typically XML. Several libraries exist for programmers to develop such wrappers. There has been significant research on techniques to generate wrappers by example so that users who don't know how to program can generate wrappers. In this lecture we cover several systems that use this approch and discuss the algorithms that they use." 
 		} ,
 
 		{
 			"id" : "l:wrapper-learning" ,
 			"title" : "Semi-structured Data: Wrapper Learning" ,
-			"description" : "TBD" 
+			"description" : "An alternative approach to generating wrappers from examples is to automatically learn the wrappers given a set of Web pages. In this class we discuss techinques that enable a system to discover differences in pages and use this information to automatically generate a wrapper to extract information from Web pages." 
 		} ,
 
 		{
 			"id" : "l:mashup-principles" ,
 			"title" : "Mashups: principles" ,
-			"description" : "TBD" 
+			"description" : "Mashups are applications that combine information from multiple Web sites and Web APIs to build an interesting new application. In this calls we discuss the main techniques that have been used to create mashups and describe interesting research systemts that incorporate these techniques." 
 		} ,
 
 		{
 			"id" : "l:mashup-tools" ,
 			"title" : "Mashups: Yahoo Pipes & YQL, REST" ,
-			"description" : "TBD" 
+			"description" : "In this class we focus on techniques for building mashups using Web APIs. We begin by introducing the principles of RESTful APIs and illustrating these principles using examples. Then we cover two interesting systems that allow users to quickly and easily construct mashups using Web APIs." 
 		} ,
 
 		{
 			"id" : "l:big-data" ,
 			"title" : "Big Data" ,
-			"description" : "TBD" 
+			"description" : "Lately, there has been significant interest in NoSQL databases that support parallel distributed analysis of large datasets on commodity hardware. In this lecture we explore the latest ideas for using NoSQL databases for storing Linked Data at large scale." 
 		} ,
 
 		{
@@ -168,19 +168,19 @@
 		{
 			"id" : "l:review" ,
 			"title" : "Review" ,
-			"description" : "TBD" 
+			"description" : "In this class we review all the topics covered during the semester highlighting the main ideas and techniques." 
 		} ,
 
 		{
 			"id" : "l:project-presentations-1" ,
 			"title" : "Project Presentations" ,
-			"description" : "TBD" 
+			"description" : "Students present their papers. The presentations will use the Pecha-Kucha format where students present the projects in 6 minutes in 40 seconds using 20 slides in auto-advance mode every 20 seconds. We used this technique for the first time in Fall 2013 and it was a huge success, so we will continue using this format." 
 		} ,
 
 		{
 			"id" : "l:project-presentations-2" ,
 			"title" : "Project Presentations" ,
-			"description" : "TBD" 
+			"description" : "Second day of project presentations using the Pech-Kucha style." 
 		} 
 	] ,
 	"homeworks" :
