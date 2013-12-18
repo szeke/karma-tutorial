@@ -66,13 +66,13 @@
 		{
 			"id" : "l:database-theory-basics" ,
 			"title" : "Database theory basics: queries, query containment, Datalog" ,
-			"description" : "TBD" 
+			"description" : "We review the basics of the relational data model, query languages (conjunctive queries and recursive queries - Datalog), reasoning about queries (query containment), and data modeling constructs (keys, functional dependencies, referential integrity constraints, and their generalizations: tuple-generating dependencies and equality-generating dependencies). We use queries to describe the contents of sources and to map data structured according to the schemas of the sources into a common harmonized target schema." 
 		} ,
 
 		{
 			"id" : "l:glav" ,
-			"title" : "Answering queries using views (Global-as-View, Local-as-View)" ,
-			"description" : "TBD" 
+			"title" : "Logical data integration: answering queries using views (GAV, LAV, st-tgds)" ,
+			"description" : "We describe the formal approach to data integration: (1) defining  mappings between source and target schemas, using logical rules/queries/st-tgds, and (2) reasoning with these rules to rewrite queries posed over the target schema to executable queries over the source schemas. We describe the virtual approach to data integration where the data remains at remote sources and the data integration system (mediator) retrieves the data in real time in response to user queries. " 
 		} ,
 
 		{
@@ -120,7 +120,7 @@
 		{
 			"id" : "l:ontology-based-integration" ,
 			"title" : "Ontology-based data integration" ,
-			"description" : "TBD" 
+			"description" : "We consider the problem of data integration when the target schema is expressed as an ontology, in particular, the OWL2QL and OWL2EL profiles. We discuss approaches to answer queries over such ontologies and the computational effects of different ontology languages." 
 		} ,
 
 		{
