@@ -1,0 +1,21 @@
+{
+	karmaHome : "/Users/szekely/Web-Karma/" ,
+	modelsDir : "/Users/szekely/github/karma-tutorial/models" ,
+	filesDir : "/Users/szekely/github/karma-tutorial/datasets" ,
+	rdfDir : "/Users/szekely/github/karma-tutorial/rdf" ,
+	endpoint : "http://localhost:8080/openrdf-sesame/repositories/karma_data" ,
+	clearEndpoint : false ,
+	filesAndModels : [
+		{
+			file : "events.json" , model : "events-model.txt"
+		}
+		, 
+		{
+			file : "people.json" , model : "people-model.txt"
+		}
+		,
+		{
+			file : "schedule.csv" , model : "schedule-model.txt"
+		}
+	]
+}
