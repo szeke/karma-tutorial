@@ -30,9 +30,10 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node18ajn5t6nx1 a km-dev:R2RMLMapping ;
+_:node18e51sf0px1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "schedule.csv" ;
-	km-dev:modelPublicationTime "1385788798167"^^xsd:long ;
+	km-dev:modelPublicationTime "1389591673881"^^xsd:long ;
+	km-dev:modelVersion "0.1" ;
 	km-dev:hasWorksheetHistory """[
   {
     \"commandName\": \"SubmitPythonTransformationCommand\",
@@ -772,68 +773,109 @@ _:node18ajn5t6nx1 a km-dev:R2RMLMapping ;
       }
     ],
     \"tags\": [\"Transformation\"]
+  },
+
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"date\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://lod.isi.edu/ontology/syllabus/Event1\",
+          \"FullType\": \"http://lod.isi.edu/ontology/syllabus/hasEventDate\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
   }
 ]
 """ .
 
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b a rr:TriplesMap .
+km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 a rr:TriplesMap .
 
-_:node18ajn5t6nx1 km-dev:hasTriplesMap km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b .
+_:node18e51sf0px1 km-dev:hasTriplesMap km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 .
 
-_:node18ajn5t6nx2 rr:tableName "schedule.csv" .
+_:node18e51sf0px2 rr:tableName "schedule.csv" .
 
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b rr:logicalTable _:node18ajn5t6nx2 .
+km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 rr:logicalTable _:node18e51sf0px2 ;
+	rr:subjectMap _:node18e51sf0px3 .
 
-_:node18ajn5t6nx3 rr:template "{\"uri\"}" .
-
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b rr:subjectMap _:node18ajn5t6nx3 .
-
-_:node18ajn5t6nx3 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Event1" ;
+_:node18e51sf0px3 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Event1" ;
 	rr:class syll:Event .
 
-_:node18ajn5t6nx4 rr:template "{\"type\"}" .
+_:node18e51sf0px4 rr:template "{\"type\"}" .
 
-_:node18ajn5t6nx3 rr:class _:node18ajn5t6nx4 ;
+_:node18e51sf0px3 rr:class _:node18e51sf0px4 ;
+	rr:template "{\"uri\"}" ;
 	a km-dev:steinerTreeRootNode .
 
-_:node18ajn5t6nx6 rr:predicate syll:hasEventDate .
+_:node18e51sf0px6 rr:predicate syll:hasEventDate .
 
-_:node18ajn5t6nx7 rr:column "date" ;
-	rr:datatype "http://www.w3.org/2001/XMLSchema#date" .
-
-_:node18ajn5t6nx6 rr:objectMap _:node18ajn5t6nx7 .
-
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b rr:predicateObjectMap _:node18ajn5t6nx6 .
-
-_:node18ajn5t6nx8 rr:predicate syll:hasInstructor .
-
-km-dev:RefObjectMap_68e61856-dd9e-42eb-952a-49f3216d284e a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_75f95735-2096-4344-b8eb-036aedd63ef5 .
-
-_:node18ajn5t6nx8 rr:objectMap km-dev:RefObjectMap_68e61856-dd9e-42eb-952a-49f3216d284e .
-
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b rr:predicateObjectMap _:node18ajn5t6nx8 .
-
-_:node18ajn5t6nx9 rr:predicate dcterms:identifier .
-
-_:node18ajn5t6nx10 rr:column "id" ;
+_:node18e51sf0px7 rr:column "date" ;
 	rr:datatype "" .
 
-_:node18ajn5t6nx9 rr:objectMap _:node18ajn5t6nx10 .
+_:node18e51sf0px6 rr:objectMap _:node18e51sf0px7 .
 
-km-dev:TriplesMap_396344f1-3fe5-4192-a8d7-12486ce1250b rr:predicateObjectMap _:node18ajn5t6nx9 .
+km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 rr:predicateObjectMap _:node18e51sf0px6 .
 
-km-dev:TriplesMap_75f95735-2096-4344-b8eb-036aedd63ef5 a rr:TriplesMap .
+_:node18e51sf0px8 rr:predicate syll:hasInstructor .
 
-_:node18ajn5t6nx1 km-dev:hasTriplesMap km-dev:TriplesMap_75f95735-2096-4344-b8eb-036aedd63ef5 .
+km-dev:RefObjectMap_917d5f15-9cf9-4864-a009-071d0cb88129 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_eb0967dc-fa29-4436-a9b7-31acf7940ec0 .
 
-_:node18ajn5t6nx11 rr:tableName "schedule.csv" .
+_:node18e51sf0px8 rr:objectMap km-dev:RefObjectMap_917d5f15-9cf9-4864-a009-071d0cb88129 .
 
-km-dev:TriplesMap_75f95735-2096-4344-b8eb-036aedd63ef5 rr:logicalTable _:node18ajn5t6nx11 .
+km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 rr:predicateObjectMap _:node18e51sf0px8 .
 
-_:node18ajn5t6nx12 rr:template "{\"[\"who\",\"instructor\"]\"}" .
+_:node18e51sf0px9 rr:predicate dcterms:identifier .
 
-km-dev:TriplesMap_75f95735-2096-4344-b8eb-036aedd63ef5 rr:subjectMap _:node18ajn5t6nx12 .
+_:node18e51sf0px10 rr:column "id" ;
+	rr:datatype "" .
 
-_:node18ajn5t6nx12 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person1" ;
-	rr:class syll:Person .
+_:node18e51sf0px9 rr:objectMap _:node18e51sf0px10 .
+
+km-dev:TriplesMap_c41c6886-90e9-437d-8700-058e59891155 rr:predicateObjectMap _:node18e51sf0px9 .
+
+km-dev:TriplesMap_eb0967dc-fa29-4436-a9b7-31acf7940ec0 a rr:TriplesMap .
+
+_:node18e51sf0px1 km-dev:hasTriplesMap km-dev:TriplesMap_eb0967dc-fa29-4436-a9b7-31acf7940ec0 .
+
+_:node18e51sf0px11 rr:tableName "schedule.csv" .
+
+km-dev:TriplesMap_eb0967dc-fa29-4436-a9b7-31acf7940ec0 rr:logicalTable _:node18e51sf0px11 ;
+	rr:subjectMap _:node18e51sf0px12 .
+
+_:node18e51sf0px12 km-dev:alignmentNodeId "http://lod.isi.edu/ontology/syllabus/Person1" ;
+	rr:class syll:Person ;
+	rr:template "{\"[\"who\",\"instructor\"]\"}" .
