@@ -3,7 +3,7 @@
 	modelsDir : "/Users/szekely/github/karma-tutorial/models" ,
 	filesDir : "/Users/szekely/github/karma-tutorial/datasets" ,
 	rdfDir : "/Users/szekely/github/karma-tutorial/rdf" ,
-	endpoint : "http://localhost:8080/openrdf-sesame/repositories/karma_data" ,
+	endpoint : "http://localhost:8080/openrdf-sesame/repositories/karma-tutorial" ,
 	clearEndpoint : false ,
 	filesAndModels : [
 		{

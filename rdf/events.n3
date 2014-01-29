@@ -2,10 +2,10 @@
 <http://lod.isi.edu/cs548/homework/hw-academic-integrity> <http://purl.org/dc/terms/identifier> "hw:academic-integrity" .
 <http://lod.isi.edu/cs548/homework/hw-academic-integrity> <http://purl.org/dc/terms/title> "Sign USC academic integrity rules" .
 <http://lod.isi.edu/course/cs548/2014/spring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Course> .
-<http://lod.isi.edu/course/cs548/2014/spring> <http://www.w3.org/2000/01/rdf-schema#label> "CS548" .
-<http://lod.isi.edu/course/cs548/2014/spring> <http://lod.isi.edu/ontology/syllabus/hasHomework> <http://lod.isi.edu/cs548/homework/hw-academic-integrity> .
-<http://lod.isi.edu/course/cs548/2014/spring> <http://purl.org/dc/terms/title> "Information Integration on the Web (CS 548)" .
 <http://lod.isi.edu/course/cs548/2014/spring> <http://lod.isi.edu/ontology/syllabus/hasClassroom> "ZHS 163" .
+<http://lod.isi.edu/course/cs548/2014/spring> <http://purl.org/dc/terms/title> "Information Integration on the Web (CS 548)" .
+<http://lod.isi.edu/course/cs548/2014/spring> <http://lod.isi.edu/ontology/syllabus/hasHomework> <http://lod.isi.edu/cs548/homework/hw-academic-integrity> .
+<http://lod.isi.edu/course/cs548/2014/spring> <http://www.w3.org/2000/01/rdf-schema#label> "CS548" .
 <http://lod.isi.edu/cs548/homework/hw-rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homework/hw-rdf> <http://purl.org/dc/terms/identifier> "hw:rdf" .
 <http://lod.isi.edu/cs548/homework/hw-rdf> <http://purl.org/dc/terms/title> "RDF Graphs" .
