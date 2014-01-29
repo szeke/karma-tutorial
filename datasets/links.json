@@ -1,7 +1,21 @@
 [
 {
 	url: "http://linkedup-challenge.org/veni.html",
-	description: "Entries to the 2013 LinkedUp Challenge on education mashups"
+	description: "Entries to the 2013 LinkedUp Challenge on education mashups",
+	keywords: ["project"]
+}
+,
+{
+	url: "http://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs",
+	description: "A list of links to many museums that offer APIs",
+	keywords: ["project"]
+}
+,
+{
+	url: "http://rdf.ng-london.org.uk/raphael/page/NG1171",
+	description: "An RDF page from the National Gallery of Art in London",
+	keywords: ["project"]
 }
 
 ]
+
