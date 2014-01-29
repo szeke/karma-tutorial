@@ -1,0 +1,76 @@
+URI scheme
+
+base URI: http://lod.isi.edu/cs548/
+lectures: http://lod.isi.edu/cs548/lecture/
+homeworks: http://lod.isi.edu/cs548/homework/
+project: http://lod.isi.edu/cs548/project/
+people: http://lod.isi.edu/cs548/person/
+
+Models: 
+http://lod.isi.edu/cs548/model/people
+http://lod.isi.edu/cs548/model/events
+http://lod.isi.edu/cs548/model/schedule
+
+
+Transformations for schedule.csv
+
+-- For uri (the column after id)
+type = getValue("type").split("/")[-1]
+if type == "Lecture":
+    return "http://lod.isi.edu/cs548/lecture/"+getValue("id").replace("l:", "")
+elif type == "ProjectEvent":
+    return "http://lod.isi.edu/cs548/project/"+getValue("id").replace("project:", "")
+elif type == "Homework":
+    return "http://lod.isi.edu/cs548/homework"+getValue("id").replace("homework:", "")
+else:
+    return "http://lod.isi.edu/cs548/other"+getValue("id")
+
+-- For instructor (should have been called instructor_uri)
+return "http://lod.isi.edu/cs548/person/"+getValue("Values").capitalize()
+
+-- For type 
+id = getValue("id")
+if id.startswith('hw:'):
+    return "http://lod.isi.edu/ontology/syllabus/Homework"
+elif id.startswith('project:'):
+    return "http://lod.isi.edu/ontology/syllabus/ProjectEvent"
+elif id.startswith('l:'):
+    return "http://lod.isi.edu/ontology/syllabus/Lecture"
+else:
+    return "http://lod.isi.edu/ontology/syllabus/EvaluationEvent"
+
+
+Transformations for events.json
+
+-- For course_uri
+return "http://lod.isi.edu/course/cs548/2014/spring"
+
+-- For homework_uri
+return "http://lod.isi.edu/cs548/homework/"+getValue("id").replace(":", "-")
+
+-- For instruction_uri
+return "http://lod.isi.edu/cs548/person/"+getValue("values").capitalize()
+
+- For lecture_uri
+return "http://lod.isi.edu/cs548/lecture/"+getValue("id").replace(":", "-")
+
+-- For course_uri
+return "http://lod.isi.edu/course/"+getValue("values")
+
+-- For project_uri
+return "http://lod.isi.edu/cs548/project/"+getValue("id").replace(":","-")
+
+-- For ta_uri
+return "http://lod.isi.edu/cs548/project/"+getValue("id").replace(":","-")
+
+
+Transformations for people.json
+
+-- For email_uri
+return "mailto:"+getValue("email")
+
+-- For uri
+return "http://lod.isi.edu/cs548/person/"+getValue("last_name")
+
+
+
