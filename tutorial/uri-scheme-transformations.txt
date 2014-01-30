@@ -69,6 +69,9 @@ Transformations for people.json
 -- For email_uri
 return "mailto:"+getValue("email")
 
+-- For last_name
+return getValue("name").split()[-1]
+
 -- For uri
 return "http://lod.isi.edu/cs548/person/"+getValue("last_name")
 
