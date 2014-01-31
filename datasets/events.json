@@ -186,6 +186,12 @@
 	"homeworks" :
 	[
 		{
+			"id" : "hw:academic-integrity" ,
+			"title" : "Sign USC academic integrity rules" ,
+			"description" : "" 
+		} ,
+
+		{
 			"id" : "hw:rdf" ,
 			"title" : "RDF Graphs" ,
 			"description" : "" 
@@ -229,6 +235,13 @@
 	] ,
 	"project" : 
 	[
+
+		{
+			"id" : "project:form-groups" ,
+			"title" : "Form project groups" ,
+			"description" : "" 
+		} ,
+
 		{
 			"id" : "project:proposal" ,
 			"title" : "Project Proposal" ,
