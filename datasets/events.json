@@ -188,19 +188,19 @@
 		{
 			"id" : "hw:academic-integrity" ,
 			"title" : "Sign USC academic integrity rules" ,
-			"description" : "" 
+			"description" : "Sign the Trojan academic integrity document" 
 		} ,
 
 		{
 			"id" : "hw:rdf" ,
 			"title" : "RDF Graphs" ,
-			"description" : "" 
+			"description" : "RDF graphs" 
 		} ,
 
 		{
 			"id" : "hw:sparql" ,
-			"title" : "SPARQL, the RDF Query Language" ,
-			"description" : "" 
+			"title" : "SPARQL the RDF Query Language" ,
+			"description" : "Writing SPARQL queries" 
 		} ,
 
 		{
