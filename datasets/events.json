@@ -188,49 +188,57 @@
 		{
 			"id" : "hw:academic-integrity" ,
 			"title" : "Sign USC academic integrity rules" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:rdf" ,
 			"title" : "RDF Graphs" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:sparql" ,
 			"title" : "SPARQL, the RDF Query Language" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:karma" ,
 			"title" : "Using Karma to Convert Datasets Into RDF" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:triple-stores" ,
 			"title" : "Working with Triple Stores" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:mashups" ,
 			"title" : "Mashup Tools: Yahoo Pipes and YQL and Google Refine" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:record-linkage" ,
 			"title" : "Using Record Linkage Tools to Link Datasets" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} ,
 
 		{
 			"id" : "hw:information-extraction" ,
 			"title" : "Using Information Extraction Tools to Extract Entities from Text" ,
-			"description" : "" 
+			"description" : "" ,
+			"date" : ""
 		} 
 	] ,
 	"project" : 
