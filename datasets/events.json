@@ -5,7 +5,7 @@
 	"instructors" : [ "ambite" , "szekely" ] ,
 	"teaching-assistants" : [ "slepicka" ] ,
 	"graders" : [] ,
-	"classroom" : "ZHS 100" ,
+	"classroom" : "ZHS 163" ,
 	"lectures" : 
 	[
 
@@ -187,58 +187,50 @@
 	[
 		{
 			"id" : "hw:academic-integrity" ,
-			"title" : "Sign USC academic integrity rules" ,
-			"description" : "" ,
-			"date" : ""
+			"title" : "Sign USC academic integrity rules test" ,
+			"description" : "Sign the Trojan academic integrity document" 
 		} ,
 
 		{
 			"id" : "hw:rdf" ,
 			"title" : "RDF Graphs" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "RDF graphs" 
 		} ,
 
 		{
 			"id" : "hw:sparql" ,
-			"title" : "SPARQL, the RDF Query Language" ,
-			"description" : "" ,
-			"date" : ""
+			"title" : "SPARQL the RDF Query Language" ,
+			"description" : "Writing SPARQL queries" 
 		} ,
 
 		{
 			"id" : "hw:karma" ,
 			"title" : "Using Karma to Convert Datasets Into RDF" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "" 
 		} ,
 
 		{
 			"id" : "hw:triple-stores" ,
 			"title" : "Working with Triple Stores" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "" 
 		} ,
 
 		{
 			"id" : "hw:mashups" ,
 			"title" : "Mashup Tools: Yahoo Pipes and YQL and Google Refine" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "" 
 		} ,
 
 		{
 			"id" : "hw:record-linkage" ,
 			"title" : "Using Record Linkage Tools to Link Datasets" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "" 
 		} ,
 
 		{
 			"id" : "hw:information-extraction" ,
 			"title" : "Using Information Extraction Tools to Extract Entities from Text" ,
-			"description" : "" ,
-			"date" : ""
+			"description" : "" 
 		} 
 	] ,
 	"project" : 
