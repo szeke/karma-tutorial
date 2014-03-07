@@ -49,49 +49,49 @@
 <http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
 <http://lod.isi.edu/cs548/lecture/l-record-linkage-record-matching> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
 
-<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
-<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
-<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://purl.org/dc/terms/identifier> "l:entity-extraction" .
-<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-10" .
-<http://lod.isi.edu/cs548/person/Szekely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
-<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Szekely> .
-
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://purl.org/dc/terms/identifier> "l:open-information-extraction" .
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-12" .
-<http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
-<http://lod.isi.edu/cs548/person/Szekely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
-<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Szekely> .
-
 <http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
 <http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://purl.org/dc/terms/identifier> "l:database-theory-basics" .
-<http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-19" .
+<http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-10" .
 <http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
 <http://lod.isi.edu/cs548/lecture/l-database-theory-basics> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
 
 <http://lod.isi.edu/cs548/lecture/l-glav> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
 <http://lod.isi.edu/cs548/lecture/l-glav> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/lecture/l-glav> <http://purl.org/dc/terms/identifier> "l:glav" .
-<http://lod.isi.edu/cs548/lecture/l-glav> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-24" .
+<http://lod.isi.edu/cs548/lecture/l-glav> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-12" .
 <http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
 <http://lod.isi.edu/cs548/lecture/l-glav> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
 
 <http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
 <http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://purl.org/dc/terms/identifier> "l:data-cleaning" .
-<http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-26" .
+<http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-19" .
 <http://lod.isi.edu/cs548/person/Szekely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
 <http://lod.isi.edu/cs548/lecture/l-data-cleaning> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Szekely> .
 
 <http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
 <http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://purl.org/dc/terms/identifier> "l:schema-mapping" .
-<http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-03" .
+<http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-24" .
 <http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
 <http://lod.isi.edu/cs548/lecture/l-schema-mapping> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
+
+<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
+<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
+<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://purl.org/dc/terms/identifier> "l:entity-extraction" .
+<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-26" .
+<http://lod.isi.edu/cs548/person/Szekely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
+<http://lod.isi.edu/cs548/lecture/l-entity-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Szekely> .
+
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://purl.org/dc/terms/identifier> "l:open-information-extraction" .
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-03" .
+<http://lod.isi.edu/cs548/person/Ambite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Ambite> .
+<http://lod.isi.edu/cs548/person/Szekely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Person> .
+<http://lod.isi.edu/cs548/lecture/l-open-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasInstructor> <http://lod.isi.edu/cs548/person/Szekely> .
 
 <http://lod.isi.edu/cs548/lecture/l-rdf-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Lecture> .
 <http://lod.isi.edu/cs548/lecture/l-rdf-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
@@ -256,12 +256,12 @@
 <http://lod.isi.edu/cs548/homeworkhw-sparql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-sparql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/homeworkhw-sparql> <http://purl.org/dc/terms/identifier> "hw:sparql" .
-<http://lod.isi.edu/cs548/homeworkhw-sparql> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-02" .
+<http://lod.isi.edu/cs548/homeworkhw-sparql> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-10" .
 
 <http://lod.isi.edu/cs548/homeworkhw-karma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-karma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/homeworkhw-karma> <http://purl.org/dc/terms/identifier> "hw:karma" .
-<http://lod.isi.edu/cs548/homeworkhw-karma> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-09" .
+<http://lod.isi.edu/cs548/homeworkhw-karma> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-24" .
 
 <http://lod.isi.edu/cs548/homeworkhw-triple-stores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-triple-stores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
@@ -271,17 +271,17 @@
 <http://lod.isi.edu/cs548/homeworkhw-mashups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-mashups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/homeworkhw-mashups> <http://purl.org/dc/terms/identifier> "hw:mashups" .
-<http://lod.isi.edu/cs548/homeworkhw-mashups> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-09" .
+<http://lod.isi.edu/cs548/homeworkhw-mashups> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-03" .
 
 <http://lod.isi.edu/cs548/homeworkhw-record-linkage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-record-linkage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/homeworkhw-record-linkage> <http://purl.org/dc/terms/identifier> "hw:record-linkage" .
-<http://lod.isi.edu/cs548/homeworkhw-record-linkage> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-02" .
+<http://lod.isi.edu/cs548/homeworkhw-record-linkage> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-17" .
 
 <http://lod.isi.edu/cs548/homeworkhw-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Homework> .
 <http://lod.isi.edu/cs548/homeworkhw-information-extraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
 <http://lod.isi.edu/cs548/homeworkhw-information-extraction> <http://purl.org/dc/terms/identifier> "hw:information-extraction" .
-<http://lod.isi.edu/cs548/homeworkhw-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-02-23" .
+<http://lod.isi.edu/cs548/homeworkhw-information-extraction> <http://lod.isi.edu/ontology/syllabus/hasEventDate> "2014-03-10" .
 
 <http://lod.isi.edu/cs548/otherfinal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/EvaluationEvent> .
 <http://lod.isi.edu/cs548/otherfinal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.isi.edu/ontology/syllabus/Event> .
