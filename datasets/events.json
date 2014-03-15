@@ -205,7 +205,7 @@
 
 		{
 			"id" : "hw:karma" ,
-			"title" : "Using Karma to Convert Datasets Into RDF test" ,
+			"title" : "Using Karma to Convert Datasets Into RDF" ,
 			"description" : "" 
 		} ,
 
@@ -238,7 +238,7 @@
 
 		{
 			"id" : "project:form-groups" ,
-			"title" : "Form project groups test" ,
+			"title" : "Form project groups" ,
 			"description" : "" 
 		} ,
 
