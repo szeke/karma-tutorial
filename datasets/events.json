@@ -181,7 +181,13 @@
 			"id" : "l:project-presentations-2" ,
 			"title" : "Project Presentations" ,
 			"description" : "Second day of project presentations using the Pecha-Kucha style." 
-		} 
+		} ,
+
+		{
+			"id" : "l:social-data-analysis" ,
+			"title" : "Social Data Analysis" ,
+			"description" : "Invited lecture illustrating applications of information integration to social network analysis." 
+		}
 	] ,
 	"homeworks" :
 	[
